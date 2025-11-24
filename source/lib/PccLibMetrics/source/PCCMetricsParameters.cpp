@@ -36,8 +36,8 @@
 using namespace pcc;
 
 PCCMetricsParameters::PCCMetricsParameters() {
-  computeMetrics_         = true;
-  computeChecksum_        = true;
+  computeMetrics_         = false;
+  computeChecksum_        = false;
   startFrameNumber_       = 0;
   frameCount_             = 0;
   groupOfFramesSize_      = 32;
@@ -49,9 +49,9 @@ PCCMetricsParameters::PCCMetricsParameters() {
   resolution_             = 1023;
   dropDuplicates_         = 2;
   neighborsProc_          = 1;
-  computeC2c_             = true;
-  computeC2p_             = true;
-  computeColor_           = true;
+  computeC2c_             = false;
+  computeC2p_             = false;
+  computeColor_           = false;
   computeLidar_           = false;
   computeReflectance_     = false;
   computeHausdorff_       = false;

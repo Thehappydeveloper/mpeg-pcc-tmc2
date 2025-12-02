@@ -9,7 +9,7 @@ OPTION( USE_JMAPP_VIDEO_CODEC     "Use JM application to encode and decode video
 OPTION( USE_HMAPP_VIDEO_CODEC     "Use HM application to encode and decode video"              TRUE  )  # HMAPP  = 1
 OPTION( USE_SHMAPP_VIDEO_CODEC    "Use SHM application to encode and decode video"             FALSE  )  # SHMAPP = 2    
 OPTION( USE_JMLIB_VIDEO_CODEC     "Clone, build and use JM video encoder and decoder"          FALSE  )  # JMLIB  = 3
-OPTION( USE_HMLIB_VIDEO_CODEC     "Clone, build and use HM video encoder and decoder"          FALSE  )  # HMLIB  = 4
+OPTION( USE_HMLIB_VIDEO_CODEC     "Clone, build and use HM video encoder and decoder"          True  )  # HMLIB  = 4
 OPTION( USE_VTMLIB_VIDEO_CODEC    "Clone, build and use VTM video encoder and decoder"         FALSE )   # VTMLIB = 5
 OPTION( USE_VVLIB_VIDEO_CODEC     "Clone, build and use VVENC/VVDEC video encoder and decoder" FALSE )   # VVENC  = 6  
 OPTION( USE_FFMPEG_VIDEO_CODEC    "Clone, build and use FFMPEG video encoder and decoder"      FALSE )  # FFMPEG = 7   
